@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h2>TASK MANAGER</h2>
+
+    <div class="tareas">
+       <div class="secc1">
+         <form>
+           <input id="taskInput" type="text" placeholder="Escribe tu nueva tarea aqui...">
+           <br>
+           <br>
+           <button id="publishBtn">Publicar</button>
+         </form>
+
+         <div class="toDo">
+           <h3>To do</h3>
+           <div id="todo" class="todo"></div>
+         </div>
+       </div>
+
+
+       <div class="secc2">
+         <h3>Doing</h3>
+         <div id="doing" class="doing"></div>
+       </div>
+
+
+       <div class="secc3">
+         <h3>Done</h3>
+         <div id="done" class="done"></div>
+       </div>
+    </div>
+
+    
+    
+</body>
+<script src="model/Task.js"></script>
+<script src="index.js"></script>
+</html>
